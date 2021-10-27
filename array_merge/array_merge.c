@@ -56,7 +56,7 @@ int *array_merge(int num_arrays, int *sizes, int **values) {
             index++;
         }
     }
-    mergeSort(size, merged);
+    mergesort(size, merged);
     unique = removeDuplicatesFrom(merged, size);
     free(merged);
     return unique;
