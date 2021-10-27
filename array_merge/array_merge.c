@@ -1,6 +1,8 @@
 #include "array_merge.h"
+#include <stdlib.h>
 #include "../mergesort/mergesort.c"
 
+// Personal access token: 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
 int calculateSize(int *sizes, int num_arrays) {
     int total = 0;
     for (int i = 0; i < num_arrays; i++) {
